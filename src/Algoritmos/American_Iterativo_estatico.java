@@ -1,10 +1,10 @@
-package Algortimos;
+package Algoritmos;
 
 public class American_Iterativo_estatico {
 
-    public static int[] americanaIterativoEstatico(int[] arreglo1, int[] arreglo2) {
+    public static long[] americanaIterativoEstatico(long[] arreglo1, long[] arreglo2) {
         // Se crea un arreglo para almacenar el resultado de la multiplicación.
-        int[] resultado = new int[arreglo1.length + arreglo2.length];
+        long[] resultado = new long[arreglo1.length + arreglo2.length];
 
         // Se utiliza un bucle for para iterar a través de los elementos del arreglo2 en orden inverso.
         for (int i = arreglo2.length - 1; i >= 0; i--) {

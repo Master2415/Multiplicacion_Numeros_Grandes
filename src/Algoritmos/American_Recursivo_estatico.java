@@ -1,4 +1,4 @@
-package Algortimos;
+package Algoritmos;
 
 public class American_Recursivo_estatico {
 

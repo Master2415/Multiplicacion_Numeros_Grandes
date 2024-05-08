@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d2eae63-bab2-4bf0-a0cf-46428e1ddeba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Multiplicacion_Numeros_Grandes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algortimos/American_Iterativo_dinamico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algortimos/American_Iterativo_estatico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Arreglo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algoritmos/American_Recursivo_dinamico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Metodos_Accion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Tiempos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algortimos/American_Iterativo_dinamico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmos/American_Iterativo_dinamico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algortimos/American_Iterativo_estatico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmos/American_Iterativo_estatico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algortimos/American_Recursivo_estatico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmos/American_Recursivo_estatico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Arreglo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Arreglo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Master2415&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Master2415/Multiplicacion_Numeros_Grandes.git&quot;,
+    &quot;accountId&quot;: &quot;83997901-56dc-4486-830d-adae8ded135b&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -42,8 +53,9 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -54,6 +66,26 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Model.Main" />
+      <module name="Multiplicacion_Numeros_Grandes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -71,11 +103,29 @@
       <option name="presentableId" value="Default" />
       <updated>1715113784242</updated>
       <workItem from="1715113785784" duration="678000" />
-      <workItem from="1715116712194" duration="2931000" />
+      <workItem from="1715116712194" duration="4328000" />
+      <workItem from="1715122290723" duration="7000" />
+      <workItem from="1715122313355" duration="93000" />
+      <workItem from="1715122429643" duration="297000" />
+      <workItem from="1715122743814" duration="411000" />
+      <workItem from="1715123351389" duration="30000" />
+      <workItem from="1715123455911" duration="4000" />
+      <workItem from="1715123600584" duration="5750000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
