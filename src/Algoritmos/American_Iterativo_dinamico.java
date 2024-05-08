@@ -2,13 +2,13 @@ package Algoritmos;
 
 public class American_Iterativo_dinamico {
 
-    public static int[] americanaIterativoDinamico(int[] arreglo1, int[] arreglo2) {
+    public static long[] americanaIterativoDinamico (long[] arreglo1, long[] arreglo2) {
         // Se calcula la longitud del arreglo resultado.
         int k = arreglo1.length + arreglo2.length - 1;
         // Se guarda la posición inicial para el ajuste dinámico de la posición k.
         int pos = arreglo1.length + arreglo2.length - 1;
         // Se crea un arreglo para almacenar el resultado de la multiplicación.
-        int[] resultado = new int[arreglo1.length + arreglo2.length];
+        long[] resultado = new long[arreglo1.length + arreglo2.length];
 
         // Bucle externo para recorrer los elementos de arreglo1 en orden inverso.
         for (int i = arreglo1.length - 1; i >= 0; i--) {

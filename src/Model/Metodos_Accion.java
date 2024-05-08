@@ -4,6 +4,7 @@ import Algoritmos.*;
 
 import java.io.IOException;
 
+
 public class Metodos_Accion {
 
     Arreglo arreglo = new Arreglo();
@@ -23,6 +24,59 @@ public class Metodos_Accion {
                 String numeroResultado = i + ".resultado";
                 //arreglo.guardarArreglos(resultadoMultiplicacion, numeroResultado);
             }
-
     }
+
+    public void x_AmericanIterativo_dinamico() throws IOException {
+
+        for (int i = 1; i <= 3; i++) {
+            String rutaArreglo1 = "C:/ALL/Codigos/WS_Java/Analisis_Algoritmos/Multiplicacion_Numeros_Grandes/src/Persistencia/arreglo " + i + ".1.txt";
+            String rutaArreglo2 = "C:/ALL/Codigos/WS_Java/Analisis_Algoritmos/Multiplicacion_Numeros_Grandes/src/Persistencia/arreglo " + i + ".2.txt";
+
+            long[] arreglo1 = arreglo.leerArreglo(rutaArreglo1);
+            long[] arreglo2 = arreglo.leerArreglo(rutaArreglo2);
+
+            long[] resultadoMultiplicacion = American_Iterativo_dinamico.americanaIterativoDinamico(arreglo1, arreglo2);
+
+            // Guardar el resultado de la multiplicación en un archivo
+            String numeroResultado = i + ".resultado";
+            //arreglo.guardarArreglos(resultadoMultiplicacion, numeroResultado);
+        }
+    }
+
+    public void x_AmericanRecursivo_estatico() throws IOException {
+
+        for (int i = 1; i <= 3; i++) {
+            String rutaArreglo1 = "C:/ALL/Codigos/WS_Java/Analisis_Algoritmos/Multiplicacion_Numeros_Grandes/src/Persistencia/arreglo " + i + ".1.txt";
+            String rutaArreglo2 = "C:/ALL/Codigos/WS_Java/Analisis_Algoritmos/Multiplicacion_Numeros_Grandes/src/Persistencia/arreglo " + i + ".2.txt";
+
+            long[] arreglo1 = arreglo.leerArreglo(rutaArreglo1);
+            long[] arreglo2 = arreglo.leerArreglo(rutaArreglo2);
+
+            long[] resultadoMultiplicacion = American_Recursivo_estatico.americanaRecursivoEstatico(arreglo1, arreglo2);
+
+            // Guardar el resultado de la multiplicación en un archivo
+            String numeroResultado = i + ".resultado";
+            //arreglo.guardarArreglos(resultadoMultiplicacion, numeroResultado);
+        }
+    }
+
+    public void x_AmericanRecursivo_dinamico() throws IOException {
+
+        for (int i = 1; i <= 3; i++) {
+            String rutaArreglo1 = "C:/ALL/Codigos/WS_Java/Analisis_Algoritmos/Multiplicacion_Numeros_Grandes/src/Persistencia/arreglo " + i + ".1.txt";
+            String rutaArreglo2 = "C:/ALL/Codigos/WS_Java/Analisis_Algoritmos/Multiplicacion_Numeros_Grandes/src/Persistencia/arreglo " + i + ".2.txt";
+
+            long[] arreglo1 = arreglo.leerArreglo(rutaArreglo1);
+            long[] arreglo2 = arreglo.leerArreglo(rutaArreglo2);
+
+            long[] resultadoMultiplicacion = American_Recursivo_dinamico.multiplicacionAmericanaRecursivaDinamica(arreglo1, arreglo2);
+
+            // Guardar el resultado de la multiplicación en un archivo
+            String numeroResultado = i + ".resultado";
+            //arreglo.guardarArreglos(resultadoMultiplicacion, numeroResultado);
+        }
+    }
+
+
+
 }

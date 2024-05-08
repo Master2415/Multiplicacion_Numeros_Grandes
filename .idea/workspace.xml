@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d2eae63-bab2-4bf0-a0cf-46428e1ddeba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algoritmos/American_Recursivo_dinamico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Metodos_Accion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Tiempos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Graficas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algortimos/American_Iterativo_dinamico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmos/American_Iterativo_dinamico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algortimos/American_Iterativo_estatico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmos/American_Iterativo_estatico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algortimos/American_Recursivo_estatico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmos/American_Recursivo_estatico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Arreglo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Arreglo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Multiplicacion_Numeros_Grandes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Multiplicacion_Numeros_Grandes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algoritmos/American_Iterativo_dinamico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmos/American_Iterativo_dinamico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algoritmos/American_Recursivo_dinamico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmos/American_Recursivo_dinamico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algoritmos/American_Recursivo_estatico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmos/American_Recursivo_estatico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Metodos_Accion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Metodos_Accion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Tiempos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Tiempos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +53,38 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Graficas.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/ALL/Entorno_Programacion/jfreechart-1.0.1/jfreechart-1.0.1/lib/jcommon-1.0.0.jar&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Graficas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Model.Graficas" />
+      <module name="Multiplicacion_Numeros_Grandes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Model.Main" />
       <module name="Multiplicacion_Numeros_Grandes" />
@@ -83,6 +101,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Graficas" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +129,8 @@
       <workItem from="1715122743814" duration="411000" />
       <workItem from="1715123351389" duration="30000" />
       <workItem from="1715123455911" duration="4000" />
-      <workItem from="1715123600584" duration="5750000" />
+      <workItem from="1715123600584" duration="10114000" />
+      <workItem from="1715139700820" duration="1676000" />
     </task>
     <servers />
   </component>
