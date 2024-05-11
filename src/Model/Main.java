@@ -3,7 +3,8 @@ package Model;
 import java.io.IOException;
 
 /*
- - Para ver el resultado de las matrices se debe quitar el comentario (a cada metodo) que guarda el resultado, en la clase metodos_accion.
+ - Para ver el resultado de las matrices se debe quitar el comentario (a cada metodo) que guarda el resultado,
+    en la clase metodos_accion.
  */
 
 public class Main {
@@ -16,9 +17,9 @@ public class Main {
     }
 
     private static void run() throws IOException {
-        //arreglo.crearArreglosMain();
-        //tiempo.tiempo();
-        //graficas.tiempo();
+        //arreglo.crearArreglosMain(); // Crea los arreglos
+        //tiempo.tiempo(); // muestra el tiempo solo por consola
+        graficas.tiempo(); // muestra el tiempo por consola y graficado
     }
 
 }

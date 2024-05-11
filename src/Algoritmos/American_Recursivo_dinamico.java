@@ -2,43 +2,35 @@ package Algoritmos;
 
 public class American_Recursivo_dinamico {
 
-    public static long[] multiplicacionAmericanaRecursivaDinamica(long[] arreglo1, long[] arreglo2) {
-        // Se obtienen las longitudes de los arreglos.
-        int n = arreglo1.length;
-        int m = arreglo2.length;
-        // Se crea un arreglo para almacenar el resultado de la multiplicación.
-        long[] resultado = new long[n + m - 1];
-        // Se llama al método auxiliar para realizar la multiplicación recursiva.
-        multiplicacionAmericanaRecursivaHelper(arreglo1, arreglo2, resultado, 0, 0);
-        // Se devuelve el arreglo con el resultado de la multiplicación.
+    public int[] americanoRecursivoDinamico(int[] arreglo1, int[] arreglo2) {
+        // Calcula la longitud del resultado
+        int k = arreglo1.length + arreglo2.length - 1;
+        // Inicializa el arreglo de resultado
+        int[] resultado = new int[arreglo1.length + arreglo2.length];
+
+        // Llama al método recursivo para realizar la multiplicación americana
+        multiplicacionAmericanaRecursivaDinamica(arreglo1, arreglo2, resultado, k, 0, 0);
+
         return resultado;
     }
 
-    // Método auxiliar para realizar la multiplicación de manera recursiva y dinámica.
-    private static void multiplicacionAmericanaRecursivaHelper(long[] arreglo1, long[] arreglo2, long[] resultado, int i, int j) {
-        // Se obtienen las longitudes de los arreglos.
-        int n = arreglo1.length;
-        int m = arreglo2.length;
-        // Caso base: Si alguno de los índices llega al final del arreglo, se detiene la recursión.
-        if (i == n || j == m) {
+    // Método recursivo para multiplicación americana
+    private void multiplicacionAmericanaRecursivaDinamica(int[] arreglo1, int[] arreglo2, int[] resultado, int k, int indice1, int indice2) {
+        if (indice1 >= arreglo1.length || indice2 >= arreglo2.length) {
+            // Se alcanzó el final de uno de los arreglos, termina la recursión
             return;
         }
 
-        // Se calcula la multiplicación y la suma con el valor existente en resultado[i + j].
-        long multiplicacion = arreglo1[i] * arreglo2[j];
-        long suma = multiplicacion + resultado[i + j];
-
-        // Se guarda el resultado de la suma en la posición correspondiente del arreglo resultado.
-        resultado[i + j] = suma % 10;
-
-        // Si la posición siguiente existe en el arreglo resultado, se ajusta el acarreo.
-        if (resultado.length > i + j + 1) {
-            resultado[i + j + 1] += suma / 10;
+        // Realiza la multiplicación y suma el resultado al índice correspondiente en resultado
+        resultado[k] += arreglo1[indice1] * arreglo2[indice2];
+        if (resultado[k] > 9) {
+            resultado[k - 1] += resultado[k] / 10;
+            resultado[k] %= 10;
         }
 
-        // Llamada recursiva para continuar con la multiplicación en las siguientes posiciones.
-        multiplicacionAmericanaRecursivaHelper(arreglo1, arreglo2, resultado, i, j + 1);  // Avanza en arreglo2.
-        multiplicacionAmericanaRecursivaHelper(arreglo1, arreglo2, resultado, i + 1, j);  // Avanza en arreglo1.
+        // Llama recursivamente al método para continuar con la multiplicación
+        multiplicacionAmericanaRecursivaDinamica(arreglo1, arreglo2, resultado, k - 1, indice1, indice2 + 1);
+        multiplicacionAmericanaRecursivaDinamica(arreglo1, arreglo2, resultado, k - 1, indice1 + 1, indice2);
     }
 
 

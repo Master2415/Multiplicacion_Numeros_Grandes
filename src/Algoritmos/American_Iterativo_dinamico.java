@@ -1,36 +1,41 @@
 package Algoritmos;
 
+import java.util.ArrayList;
+import java.util.Collections;
+
 public class American_Iterativo_dinamico {
 
-    public static long[] americanaIterativoDinamico (long[] arreglo1, long[] arreglo2) {
-        // Se calcula la longitud del arreglo resultado.
+    public int[] americanoIterativoDinamico(int[] arreglo1, int[] arreglo2) {
+        // Calcula la longitud del resultado
         int k = arreglo1.length + arreglo2.length - 1;
-        // Se guarda la posición inicial para el ajuste dinámico de la posición k.
+        // Variable para mantener la posición inicial
         int pos = arreglo1.length + arreglo2.length - 1;
-        // Se crea un arreglo para almacenar el resultado de la multiplicación.
-        long[] resultado = new long[arreglo1.length + arreglo2.length];
+        // Inicializa el arreglo de resultado
+        int[] resultado = new int[arreglo1.length + arreglo2.length];
 
-        // Bucle externo para recorrer los elementos de arreglo1 en orden inverso.
+        // Itera sobre el primer arreglo en reversa
         for (int i = arreglo1.length - 1; i >= 0; i--) {
-            // Bucle interno para recorrer los elementos de arreglo2 en orden inverso.
+            // Itera sobre el segundo arreglo en reversa
             for (int j = arreglo2.length - 1; j >= 0; j--) {
-                // Se multiplica el elemento de arreglo1 con el elemento de arreglo2 y se suma al resultado en la posición k.
+                // Realiza la multiplicación y suma el resultado al índice correspondiente en resultado
                 resultado[k] = resultado[k] + arreglo1[i] * arreglo2[j];
-                // Si el resultado en la posición k es mayor que 9, se ajusta el acarreo.
+                // Verifica si hay acarreo
                 if (resultado[k] > 9) {
-                    resultado[k - 1] += resultado[k] / 10;  // Se suma el cociente a la posición anterior.
-                    resultado[k] = resultado[k] % 10;      // Se obtiene el residuo para mantener solo la cifra en k.
+                    // Realiza la corrección de acarreo
+                    resultado[k - 1] += resultado[k] / 10;
+                    resultado[k] = resultado[k] % 10;
                 }
-                k--;  // Se reduce la posición k para moverse hacia la izquierda en el arreglo resultado.
+                k--; // Decrementa el índice de resultado
             }
-            // Se reinicia la posición k para el siguiente ciclo de arreglo1 y se ajusta pos.
-            k = pos;
-            pos--;
-            k--;  // Se reduce k adicionalmente para el siguiente ciclo de arreglo1.
+            k = pos; // Reinicia la posición de resultado
+            pos--; // Decrementa la posición inicial
+            k--; // Decrementa el índice de resultado
         }
 
-        // Se devuelve el arreglo que contiene el resultado de la multiplicación.
+        // Retorna el arreglo resultado
         return resultado;
     }
+
+
 
 }

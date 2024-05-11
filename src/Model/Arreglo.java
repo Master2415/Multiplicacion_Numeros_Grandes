@@ -23,15 +23,15 @@ public class Arreglo {
         fw.close();
     }
 
-    public long[] leerArreglo(String ruta) {
+    public int[] leerArreglo(String ruta) {
         File archivo = new File(ruta);
-        long[] arreglo = null;
+        int[] arreglo = null;
         try {
             Scanner scanner = new Scanner(archivo);
             String primeraLinea = scanner.nextLine();
             String[] valores = primeraLinea.split(" ");
             int longitud = valores.length;
-            arreglo = new long[longitud];
+            arreglo = new int[longitud];
             for (int i = 0; i < longitud; i++) {
                 arreglo[i] = Integer.parseInt(valores[i]);
             }
