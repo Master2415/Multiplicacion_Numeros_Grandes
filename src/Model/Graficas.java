@@ -130,6 +130,7 @@ public class Graficas {
                 false // Incluir URLs
         );
 
+
         JFrame frame = new JFrame("Tiempos de ejecución");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         ChartPanel chartPanel = new ChartPanel(chart);

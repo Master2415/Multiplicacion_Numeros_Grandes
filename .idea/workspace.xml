@@ -5,23 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d2eae63-bab2-4bf0-a0cf-46428e1ddeba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algoritmos/DivideVenceras_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algoritmos/DivideVenceras_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algoritmos/Hindu_Iterativo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algoritmos/Inglesa_Iterativo_Dinamico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algoritmos/Inglesa_Iterativo_Estatico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algoritmos/Inglesa_Recursiva_Estatica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algoritmos/Inglesa_Recursivo_Dinamico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Grafica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Algoritmos/American_Iterativo_dinamico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmos/American_Iterativo_dinamico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Algoritmos/American_Iterativo_estatico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmos/American_Iterativo_estatico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Algoritmos/American_Recursivo_dinamico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmos/American_Recursivo_dinamico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Algoritmos/American_Recursivo_estatico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmos/American_Recursivo_estatico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algoritmos/Inglesa_Iterativo_Dinamico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmos/Inglesa_Iterativo_Dinamico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algoritmos/Inglesa_Recursivo_Dinamico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmos/Inglesa_Recursivo_Dinamico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Arreglo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Arreglo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Graficas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Graficas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Metodos_Accion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Metodos_Accion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Persistencia/arreglo 1.1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Persistencia/arreglo 1.1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Persistencia/arreglo 1.2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Persistencia/arreglo 1.2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Persistencia/arreglo 2.1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Persistencia/arreglo 2.1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Persistencia/arreglo 2.2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Persistencia/arreglo 2.2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Persistencia/arreglo 3.1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Persistencia/arreglo 3.1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Persistencia/arreglo 3.2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Persistencia/arreglo 3.2.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +158,12 @@
       <workItem from="1715198096786" duration="17000" />
       <workItem from="1715198155493" duration="18000" />
       <workItem from="1715348452104" duration="271000" />
-      <workItem from="1715348739290" duration="9132000" />
+      <workItem from="1715348739290" duration="14373000" />
+      <workItem from="1715394204762" duration="480000" />
+      <workItem from="1715396524072" duration="13000" />
+      <workItem from="1715397526034" duration="63000" />
+      <workItem from="1715397647145" duration="1496000" />
+      <workItem from="1715399186056" duration="4518000" />
     </task>
     <servers />
   </component>
